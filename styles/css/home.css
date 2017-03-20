@@ -1,0 +1,45 @@
+
+.navbar-fixed-top {
+  background-color: #ffc107 !important;
+  opacity: 0.7;
+
+}
+
+.container{
+width: 1400px;
+}
+
+.parallax-container {
+    position: relative;
+    overflow: hidden;
+    height: 550px;
+}
+
+.pos{
+  margin-left: 300px;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-top: 150px;
+  position:absolute;
+}
+
+.backimage{
+  background-color:black;
+  height:500px;
+  opacity:0.2;
+  position: absolute;;
+  z-index: -1;
+}
+
+.beautyText{
+  font-size: 45px;
+  font-weight: 300;
+  color: white;
+   text-shadow:5px 5px 10px  #ffc107;
+}
+
+.beautyTextBelow{
+  font-size: 15px;
+  color: white;
+  opacity: 0.8;
+}
