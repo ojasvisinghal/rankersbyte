@@ -28,8 +28,8 @@
         	      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">reorder</i></a>
                 <ul class="right hide-on-med-and-down">
               		<li class="active"><a href="#home">Home</a></li>
-              		<li><a href="#aboutus">AboutUs</a></li>
-                  <li><a href="#courses">Benefits</a></li>
+                  <li><a href="#courses">Courses</a></li>
+                  <li><a href="#aboutus">AboutUs</a></li>
               		<li><a href="#reviews">Reviews</a></li>
               		<li><a href="#contact">Sign In</a></li>
             	  </ul>
@@ -70,49 +70,57 @@
 
 <!-- couses -->
 
-    <div id="courses" class="section white">
-
-      <h1 class="center-align"> Courses </h1>
+    <div id="courses" class="section white scrollspy">
+      <br>  <br>  <br>  <br>  <br>
       <div class="row hide-on-small-only">
-        <div class="col s4 center-align">
-          <div class="row s12 center-align"><h3> IIT Mains</h3></div>
-          <div class="row s12 center-align"><img src="images/bnk.png"></div>
-          <div class="row s12 center-align"><a href="#">See course > </a></div>
-        </div>
-        <div class="col s4 center-align">
-          <div class="row s12 center-align"><h3> IIT Advance </h3></div>
-          <div class="row s12 center-align"><img src="images/bnk.png"></div>
-          <div class="row s12 center-align"><a href="#">See course > </a></div>
-        </div>
-        <div class="col s4 center-align">
-          <div class="row s12 center-align"><h3> PMT </h3></div>
-          <div class="row s12 center-align"><img src="images/bnk.png"></div>
-          <div class="row s12 center-align"><a href="#">See course > </a></div>
-        </div>
+        <div class="col s6 center-align">
+            <div class="row s12 center-align"><h4> IIT JEE</h4></div>
+            <div class="row s12 center-align">
+              <div class="col s6 center-align">
+                <img src="images/iit.png"  height=150px width=150px>
+              </div>
+              <div class="col s6 left-align">
+                An approved degree in a field (other than speech pathology) such as health,
+                 humanities, education, social, physical or biological sciences. University
+                 level or equivalent courses are required in statistics and a course in one of:
+                 linguistics, psychology or physiology.
+              </div>
+            </div>
+            <div class="row s12 center-align"><a href="#">See course > </a></div>
+          </div>
+          <div class="col s6 center-align">
+            <div class="row s12 center-align"><h4> NEET </h4></div>
+            <div class="row s12 center-align">
+              <div class="col s6 center-align">
+                <img src="images/neet.png"  height=150px width=150px>
+              </div>
+              <div class="col s6 left-align">
+                An approved degree in a field (other than speech pathology) such as health,
+                 humanities, education, social, physical or biological sciences. University
+                 level or equivalent courses are required in statistics and a course in one of:
+                 linguistics, psychology or physiology.
+              </div>
+            </div>
+            <div class="row s12 center-align"><a href="#">See course > </a></div>
+          </div>
     </div>
 
     <div class="row hide-on-med-and-up">
       <div class="row s12 center-align">
-        <div class="row s12 center-align"><h3> IIT Mains</h3></div>
-        <div class="row s12 center-align"><img src="images/bnk.png"></div>
+        <div class="row s12 center-align"><h3> IIT JEE</h3></div>
+        <div class="row s12 center-align"><img src="images/iit.png" height=60px width=60px></div>
         <div class="row s12 center-align"><a href="#">See course > </a></div>
       </div>
       <div class="row s12 center-align">
-        <div class="row s12 center-align"><h3> IIT Advance </h3></div>
-        <div class="row s12 center-align"><img src="images/bnk.png"></div>
-        <div class="row s12 center-align"><a href="#">See course > </a></div>
-      </div>
-      <div class="row s12 center-align">
-        <div class="row s12 center-align"><h3> PMT </h3></div>
-        <div class="row s12 center-align"><img src="images/bnk.png"></div>
+        <div class="row s12 center-align"><h3> NEET </h3></div>
+        <div class="row s12 center-align"><img src="images/neet.png" height=60px width=60px></div>
         <div class="row s12 center-align"><a href="#">See course > </a></div>
       </div>
   </div>
-
-    </div>
+</div>
 
 <!-- about us -->
-    <div id="aboutus" class="section white"  style="height:280px;">
+    <div id="aboutus" class="section white scrollspy"  style="height:280px;">
 
       <h1 class="center-align" > About Us </h1>
       <p>
@@ -126,7 +134,7 @@
 
 <!--reviews -->
 
-    <div id="reviews" class="section white">
+    <div id="reviews" class="section white scrollspy">
 
       <h1 class="center-align"> Reviews </h1>
       <div class="carousel">
@@ -170,6 +178,7 @@
 
 
     $(document).ready(function(){
+      $('.scrollspy').scrollSpy();
       $(".rotate").textrotator({
         animation: "fade", // You can pick the way it animates when rotating through words. Options are dissolve (default), fade, flip, flipUp, flipCube, flipCubeUp and spin.
         separator: "|", // If you don't want commas to be the separator, you can define a new separator (|, &, * etc.) by yourself using this field.
