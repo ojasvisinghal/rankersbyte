@@ -6,13 +6,45 @@
 }
 
 .container{
-width: 1400px;
+width: 1000px;
 }
 
 .parallax-container {
     position: relative;
     overflow: hidden;
-    height: 650px;
+    height: 630px;
+}
+
+h4.basefont{
+  /*color: #676a6c;*/
+  color: #2d2f2f;
+  align-items: center;
+  font-weight: 200;
+}
+
+.belowbasefont{
+  color: rgb(21, 22, 23);
+  font-weight: 200;
+}
+
+h6.uper{
+  color:  #ffc107;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.divider {
+  height: 1px;
+  width: 220px;
+  overflow: hidden;
+  background-color: #ffc107;
+  margin: 60px auto 0;
+}
+
+a {
+    color: #2d2f2f;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .pos{
